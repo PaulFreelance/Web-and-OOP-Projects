@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="style.css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        table,tr, th{
+            text-align: center;
+            justify-content: center;
+            border: 1px solid #000;
+            border-radius: 10px;
+            border-bottom: 1px solid black;
+            background-color: white;
+        }
+        table th ion-icon{
+            justify-content: center;
+            color: crimson;
+            font-size: 1.1em;
+        }
+    </style>
+    <body>
+        <header>
+            <a href="index.html" class="logo">Logo</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html" class="active">Contact</a></li>
+                <li><a href="Help.html">Help</a></li>
+            </ul>
+        </header>
+        <section class="contact" style=";min-height: 100vh;padding: 50px;display: flex;justify-content: center;align-items: center;">
+            <div class="contactcontent"style="padding: 200px; max-width: 800px;text-align: center;">
+                <h2 style="padding-bottom: 200px; font-size: 3em;color: crimson;font-weight: 500;">Contact Us</h2>
+                <p style=" color: crimson;font-size: 1.1em;font-weight: 300;text-align: center;">Toate Contactele mele:</p>
+                <div class="container_contact" style="width: 100%;display: flex;justify-content: center;align-items: center;">
+                    <div class="contactinfo" style="width: 100%; display: flex;min-height: 100px;border-radius: 10%">
+                        <table>
+                            <tr>
+                            <th><ion-icon name="logo-facebook"></ion-icon></th>
+                            <td>Paul-sorin Lihat</td>
+                          </tr>
+                          <tr>
+                            <th><ion-icon name="logo-github"></ion-icon></th>
+                            <td>LihatPaul</td>
+                          </tr>
+                          <tr>
+                            <th><ion-icon name="mail"></ion-icon></th>  
+                            <td>lihatpaul10@gmail.com</td>      
+                          </tr>  
+                          <tr>
+                            <th><ion-icon name="call"></ion-icon></th>
+                            <td>0742952311</td>
+                          </tr>
+                    </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

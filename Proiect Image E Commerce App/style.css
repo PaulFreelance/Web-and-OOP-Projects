@@ -1,0 +1,17 @@
+header
+{
+    position: fixed;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+}
+
+header ul{
+    display: flex;
+    gap: 40px;
+}
+header ul li{
+    list-style: none;
+}

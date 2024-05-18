@@ -1,0 +1,7 @@
+Qwik:   npm run qwik add - pt adaugare
+	cd nume_proiect
+	npm install
+	npm start
+
+
+RxDB:   npm install rxdb rxjs --save - instalare

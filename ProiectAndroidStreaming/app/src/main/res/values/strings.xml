@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application12</string>
+    <string name="simple_text">Cornelia Van Gorder (Agnes Moorehead) is a mystery author who rents a summer home in a small town from local bank president John Fleming (Harvey Stephens). Over $1 million in negotiable securities is discovered missing from the bank while Fleming is on a hunting trip with his physician, Dr. Malcolm Wells (Vincent Price). In a cabin in the woods, Fleming confesses to Wells that he stole the securities. He offers to split the money with Wells in return for help faking his own death and threatens to kill him if he doesn\'t agree to help.</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

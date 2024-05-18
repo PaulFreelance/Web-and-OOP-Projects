@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proiect3-RecunoastereMonede", "Proiect3-RecunoastereMonede\Proiect3-RecunoastereMonede.csproj", "{7F76E368-32E4-492E-BF3A-FE3992A7B800}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F76E368-32E4-492E-BF3A-FE3992A7B800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F76E368-32E4-492E-BF3A-FE3992A7B800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F76E368-32E4-492E-BF3A-FE3992A7B800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F76E368-32E4-492E-BF3A-FE3992A7B800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760662A8-CC10-4A4C-919C-15340392ABFD}
+	EndGlobalSection
+EndGlobal

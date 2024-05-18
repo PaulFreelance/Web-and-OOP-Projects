@@ -1,0 +1,16 @@
+D:\ReteaNeuronala\ReteaNeuronala\bin\Debug\ReteaNeuronala.exe.config
+D:\ReteaNeuronala\ReteaNeuronala\bin\Debug\ReteaNeuronala.exe
+D:\ReteaNeuronala\ReteaNeuronala\bin\Debug\ReteaNeuronala.pdb
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.csproj.AssemblyReference.cache
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.Form1.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.Properties.Resources.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.ReteaNoua.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.csproj.GenerateResource.cache
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.csproj.CoreCompileInputs.cache
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.exe
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.pdb
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.NeuronGraf.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.NeuronGraf2.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.InputLayers.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.ActivationLayers.resources
+D:\ReteaNeuronala\ReteaNeuronala\obj\Debug\ReteaNeuronala.OL.resources

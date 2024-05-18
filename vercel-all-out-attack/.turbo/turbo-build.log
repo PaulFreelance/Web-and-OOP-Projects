@@ -1,0 +1,28 @@
+
+> vercel-all-out-attack@0.1.0 build
+> next build
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    5.25 kB        85.6 kB
+└ ○ /_not-found                          882 B          81.2 kB
++ First Load JS shared by all            80.3 kB
+  ├ chunks/472-23f435a9c16afa13.js       27.5 kB
+  ├ chunks/fd9d1056-e4950b334bc218cf.js  50.9 kB
+  ├ chunks/main-app-431f423127961c9b.js  232 B
+  └ chunks/webpack-989e9d20cfe20715.js   1.69 kB
+
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+

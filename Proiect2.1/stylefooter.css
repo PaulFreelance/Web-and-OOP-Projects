@@ -1,0 +1,26 @@
+footer{
+    background: var(--primary-color);    padding-top:200px;
+}
+.LayoutCopyright{
+    text-align: center;
+}
+ul{
+    display: flex;
+    text-align: center;
+    color: #000;
+    list-style: none;
+}
+ul li{
+        margin: 15px 0;   
+}
+li ion-icon{
+    width: 40px;
+    align-items: center;
+    font-weight: 3.3em;;
+}
+ion-icon{
+    color: forestgreen;
+}
+ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);}

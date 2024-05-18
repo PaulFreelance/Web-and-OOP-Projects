@@ -1,0 +1,22 @@
+Node vs PHP: ambele sunt Cross-platform si ambele sunt extensible, si sunt Service
+
+Pro:
+
+Nodejs - functionalitate Cross platform
+       - suport pentru file JSON
+       - suport oferit de Google
+       - ii ia mai putin timp pentru compilare
+
+PHP - Inexpensive
+    - mai putine probleme tehnice
+    - automatizare
+    - user-friendly
+
+
+Contr:
+
+Node - API nu este sigur
+     - procesariile sunt mult mai grele
+
+PHP - securitate slaba
+    - proces mult mai incet

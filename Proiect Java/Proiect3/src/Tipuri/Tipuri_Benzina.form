@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Tipuri.Tipuri_Benzina">
+  <grid id="27dc6" binding="panelBenzina" layout-manager="GridLayoutManager" row-count="8" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-15301837"/>
+    </properties>
+    <border type="none" title="Tipuri_Benzina"/>
+    <children>
+      <component id="be189" class="javax.swing.JRadioButton" binding="standard_95RadioButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Standard_95 - RON 5"/>
+        </properties>
+      </component>
+      <component id="110dc" class="javax.swing.JRadioButton" binding="extra_99RadioButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="5" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Extra_99 - RON 7"/>
+        </properties>
+      </component>
+      <component id="5d11b" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <minimum value="1"/>
+          <value value="1"/>
+        </properties>
+      </component>
+      <component id="66a07" class="javax.swing.JTextField" binding="a1102030TextField" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="                                    1 10 20 30 40 50 60 70 80 90 100"/>
+        </properties>
+      </component>
+      <grid id="4e00a" binding="pret" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="2" use-parent-layout="true"/>
+        </constraints>
+        <properties>
+          <background color="-30635"/>
+        </properties>
+        <border type="none" title="Pret"/>
+        <children/>
+      </grid>
+      <component id="cd659" class="javax.swing.JRadioButton" binding="CO98_fara_plumbRadioButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CO98_fara_plumb - RON 8"/>
+        </properties>
+      </component>
+      <component id="30faf" class="javax.swing.JRadioButton" binding="CO95_fara_plumbRadioButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" CO95_fara_plumb - RON 6"/>
+        </properties>
+      </component>
+      <component id="b889b" class="javax.swing.JButton" binding="platesteButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Plateste"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

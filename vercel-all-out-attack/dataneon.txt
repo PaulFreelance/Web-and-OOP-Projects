@@ -1,0 +1,1 @@
+postgres://lihatpaul10:9ASc6EWFJuom@ep-black-breeze-51588544.us-east-2.aws.neon.tech/neondb

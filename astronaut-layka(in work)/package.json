@@ -1,0 +1,22 @@
+{
+  "name": "astronaut-layka",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.4",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.10",
+    "astro": "^4.4.0",
+    "rxdb": "^15.8.1",
+    "rxjs": "^7.8.1",
+    "typescript": "^5.3.3"
+  }
+}

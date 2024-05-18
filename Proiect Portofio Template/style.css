@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body
+{
+    max-height: 100vh;
+    background: #222;
+}
+header
+{
+    position: fixed;
+    padding: 30px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+}
+header .logo
+{
+    color: crimson;
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    background: #222;
+}
+header ul
+{
+    display: flex;
+    gap: 40px;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: dimgrey;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    transition: 0.5s;
+    background: #222;
+}
+header ul li a:hover, header ul li a.active
+{
+    color: crimson;
+}
+section .index
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px;
+    gap: 100px;
+}
+section .index .content
+{
+    max-width: 700px;
+}
+section .index .content h2
+{
+    font-size: 3.5em;
+    color: cornsilk;
+    
+}
+section .index .content p
+{
+    color: cornsilk;
+    font-size: 1.1em;
+}
+
+.containerhelp
+{
+    margin: 0 40px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.containerhelp h1
+{
+    color: darkgray;
+}
+.containerhelp .tab
+{
+    position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.05);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.containerhelp .tab input
+{
+    appearance: none;
+}
+.containerhelp .tab label
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.containerhelp .tab label::after
+{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: dimgray;
+    transition: transform 1s;
+}
+.containerhelp .tab:hover label::after
+{
+    color: black;
+}
+.containerhelp .tab input:checked ~ label::after
+{
+    transform: rotate(135deg);
+}
+.containerhelp .tab label h2
+{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.containerhelp .tab label h3
+{
+    position: relative;
+    font-weight: 500;
+    color: dimgray;
+    z-index: 10;
+}
+.containerhelp .tab .answercontent
+{
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.containerhelp .tab input:checked ~ .answercontent
+{
+    max-height: 100vh;
+}
+.containerhelp .tab .answercontent p
+{
+    position: relative;
+    padding: 10px 0;
+    color: dimgray;
+    z-index: 10;
+}
